@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  --main-color: rgb(0, 3, 191);
+  --main-color-darker: rgb(11, 46, 68);
+  --main-color-transparent: rgba(0, 121, 191, 0.1)
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Helvetica', sans-serif, system-ui;
+  background-color: var(--main-color-transparent);
+  height: 100vh;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+.members span {
+  margin: 15px 0;
+}
+
+.taskStatus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.enproceso,
+.completedStatus,
+.uncompletedStatus {
+  width: 40px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.completedStatus {
+  background-color: #00992b;
+}
+
+.uncompletedStatus {
+  background-color: var(--main-color)
+}
+.enproceso {
+  background-color: #ecdd09;
+}

@@ -1,0 +1,41 @@
+[
+    {
+        "sprintId": 1,
+        "content": [
+            {
+                "id": "S1",
+                "description": "Crear índex",
+                "completed": true,
+                "tasks": [
+                    {
+                        "Task": 1,
+                        "description": "Afinar puntos de acuerdo en layout de página inicial del sitio web.",
+                        "inCharge": "José Ma. Gutiérrez"
+                    },
+                    {
+                        "Task": 2,
+                        "description": "Selección de imágenes y tipografías.",
+                        "inCharge": "José Ma. Gutiérrez"
+                    },
+                    {
+                        "Task": 3,
+                        "description": "Codificación de pantalla índex.",
+                        "inCharge": "José Ma. Gutiérrez"
+                    },
+                    
+                    {
+                        "Task": 4,
+                        "description": "Codificación de pantalla índex.",
+                        "inCharge": "José Ma. Gutiérrez"
+                    }
+
+                ],
+                "comments": [
+                    "Reunión de involucrados para planear, diseñar índex, asignar objetivos y tareas. Del sitio web."
+                ],
+                "conditions": []
+            }
+        ]
+    }
+   
+]
